@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Modal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex items-center justify-center min-h-screen bg-slate-100">
+      <div
+        class="flex flex-col p-6 m-3 three-d pace-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16"
+      >
+        <!-- image div -->
+        <div class="">
+          <img
+            src="https://media.direct.playstation.com/is/image/psdglobal/ps-portal-remoteplayer-hero-1?$Background_Large$"
+            alt="ps-portal"
+            class="mx-auto duration-200 w-60 hover:scale-105"
+          />
+        </div>
+        <div class="flex flex-col space-y-6">
+          <div class="flex flex-col mb-4 space-y-3 text-center md:text-left">
+            <div class="">
+              <div
+                class="inline-block px-3 py-1 text-sm text-white bg-black rounded-full"
+              >
+                Free Shipping
+              </div>
+            </div>
+            <!-- prod name -->
+            <div class="max-w-sm text-2xl font-medium">Playstation Portal</div>
+            <!-- price -->
+            <div class="flex flex-col mb-4 space-y-3 text-center md:text-left">
+              <p class="line-through">$899</p>
+              <div class="text-5xl font-bold">$499</div>
+              <p class="text-sm font-light text-gray-400">
+                Offer's valid until the 30 November, 2023
+              </p>
+            </div>
+            <!-- button -->
+            <div class="group">
+              <button
+                class="w-full transition-all duration-150 bg-blue-700 text-white border-b-8 border-b-blue-700 rounded-lg group-hover:border-t-8 group-hover:border-b-0 group-hover:bg-blue-700 group-hover:border-t-blue-700 group-hover:shadow-lg"
+              >
+                <div
+                  class="px-8 py-4 bg-blue-500 rounded-lg group-hover:bg-blue-700"
+                >
+                  Add to Cart
+                </div>
+              </button>
+            </div>
+            <!-- stock div -->
+            <div class="flex items-center space-x-3 group">
+              <div
+                class="w-3 h-3 bg-red-500 rounded-full group-hover:animate-ping"
+              ></div>
+              <div class="text-sm">stocks: 8 left</div>
+            </div>
+            <!-- bottom contents -->
+            <div
+              class="flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row"
+            >
+              <button
+                class="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/66/66939.png"
+                  alt="weight-scale"
+                  class="w-8"
+                />
+                <span>Add to Cart</span>
+              </button>
+              <button
+                class="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/215/215544.png"
+                  alt="weight-scale"
+                  class="w-8"
+                />
+                <span>Add to Wishlist</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
